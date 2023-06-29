@@ -1,0 +1,67 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Kaushan+Script&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background-color: rgb(188, 200, 214);
+    font-family: "Poppins",sans-serif;
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input{
+    border: none;
+    margin-right: 10px;
+    padding: 5px 6px ;
+    width: 240px;
+    outline: none;
+    background-color:rgb(248, 246, 246) ;
+    border-radius: 5px;
+    font-size: .8rem;
+}
+.btn{
+    outline: none;
+}
+.list{
+    margin-top:15px ;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: rgb(248, 246, 246);
+    box-shadow: 0px 2px 4px 2px  rgb(204, 202, 202);
+    min-width: 305px;
+    padding:5px ;
+    margin-bottom: 9px;
+    height: auto;
+    border-radius: .15rem;
+}
+.taskname{
+    flex-basis: 70%;
+    font-size: .8rem;
+}
+.btn1,.btn2,.btn3{
+    font-size: .65rem;
+    background-color: rgb(60, 92, 233);
+    border: none;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgb(126, 141, 206);
+    transition: all .2s ease-in;
+}
+.btn2{
+    background-color:rgb(226, 27, 27) ;
+}
+.btn3{
+    background-color: green;
+}
+.btn2:hover{
+    background-color:rgb(216, 37, 37) ;
+    transition: all .2s ease-in;
+
+}
