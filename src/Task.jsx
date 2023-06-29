@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Task(props) {
+export default  function Task(props) {
   return (
     <div className='task'>
      <div className='taskname' style={{backgroundColor:props.completed?"green":"rgb(248, 246, 246)"}} >{props.taskName}</div>
